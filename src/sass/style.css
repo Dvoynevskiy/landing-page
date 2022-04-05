@@ -1,0 +1,56 @@
+@import "style.css";
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.header {
+  background-color: #161616;
+}
+.header__inner {
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__btn {
+  width: 35px;
+  height: 35px;
+  background-color: #292929;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  border: none;
+  position: relative;
+}
+.menu__btn::after {
+  content: "";
+  width: 17.5px;
+  height: 1.25px;
+  background: #FFFFFF;
+  border-radius: 1px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::befor {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+.line {
+  display: flex;
+}
+
+.services__inner {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
